@@ -1,0 +1,170 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from uberwebs.net/index.asp by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 04 Jun 2016 20:36:42 GMT -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css"> 
+<!-- 
+body  {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #FFFFFF;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+
+/* Tips for Elastic layouts 
+1. Since the elastic layouts overall sizing is based on the user's default fonts size, they are more unpredictable. Used correctly, they are also more accessible for those that need larger fonts size since the line length remains proportionate.
+2. Sizing of divs in this layout are based on the 100% font size in the body element. If you decrease the text size overall by using a font-size: 80% on the body element or the #container, remember that the entire layout will downsize proportionately. You may want to increase the widths of the various divs to compensate for this.
+3. If font sizing is changed in differing amounts on each div instead of on the overall design (ie: #sidebar1 is given a 70% font size and #mainContent is given an 85% font size), this will proportionately change each of the divs overall size. You may want to adjust these divs based on your final font sizing.
+*/
+.twoColElsLt #container {
+	width: 62em;  /* this width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	background: #FFFFFF;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+} 
+
+/* Tips for sidebar1:
+1. Be aware that if you set a font-size value on this div, the overall width of the div will be adjusted accordingly.
+2. Since we are working in ems, it's best not to use padding on the sidebar itself. It will be added to the width for standards compliant browsers creating an unknown actual width. 
+3. Space between the side of the div and the elements within it can be created by placing a left and right margin on those elements as seen in the ".twoColElsLt #sidebar1 p" rule.
+*/
+.twoColElsLt #sidebar1 {
+	float: left;
+	width: 12em; /* since this element is floated, a width must be given */
+	background: white; /* the background color will be displayed for the length of the content in the column, but no further */
+	padding: 15px 0; /* top and bottom padding create visual space within this div */
+}
+.twoColElsLt #sidebar1 h3, .twoColElsLt #sidebar1 p {
+	margin-left: 10px; /* the left and right margin should be given to every element that will be placed in the side columns */
+	margin-right: 10px;
+}
+
+/* Tips for mainContent:
+1. If you give this #mainContent div a font-size value different than the #sidebar1 div, the margins of the #mainContent div will be based on its font-size and the width of the #sidebar1 div will be based on its font-size. You may wish to adjust the values of these divs.
+2. The space between the mainContent and sidebar1 is created with the left margin on the mainContent div.  No matter how much content the sidebar1 div contains, the column space will remain. You can remove this left margin if you want the #mainContent div's text to fill the #sidebar1 space when the content in #sidebar1 ends.
+3. To avoid float drop, you may need to test to determine the approximate maximum image/element size since this layout is based on the user's font sizing combined with the values you set. However, if the user has their browser font size set lower than normal, less space will be available in the #mainContent div than you may see on testing.
+4. In the Internet Explorer Conditional Comment below, the zoom property is used to give the mainContent "hasLayout." This avoids several IE-specific bugs that may occur.
+*/
+.twoColElsLt #mainContent {
+} 
+
+/* Miscellaneous classes for reuse */
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+footertable {
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #000;
+}
+.topbanner {
+	display: block;
+	float: left;
+	width: 760px;
+}
+--> 
+</style>
+<!--[if IE]>
+<style type="text/css"> 
+/* place css fixes for all versions of IE in this conditional comment */
+.twoColElsLt #sidebar1 { padding-top: 30px; }
+.twoColElsLt #mainContent { zoom: 1; padding-top: 15px; }
+/* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
+</style>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="styles/nivo-slider.css" />
+<link rel="stylesheet" type="text/css" href="styles/nivoSlider/basic/basic.css" />
+<script type="text/javascript" src="ScriptLibrary/jquery-latest.pack.js"></script>
+<script type="text/javascript" src="ScriptLibrary/jquery.nivo.slider.pack.js"></script>
+</head>
+
+<body class="twoColElsLt">
+<div class="clearfloat"></div><div id="mainContent">
+<div class="topbanner" id="top_banner">
+<img src="images/php_logo.jpg" width="198" height="95" /><img src="images/php_top_photo.jpg" width="562" height="95" /></div>
+<div class="clearfloat">Content for  class "clearfloat" Goes Here</div>
+  <div id="sidebar1">
+    <h3><script type="text/javascript" src="menu_scr.js">
+</script>
+
+<table id="m1mainSXMenu2" cellspacing="1" cellpadding="5"  style=";width:">
+<tr style="text-align:left"><td onmouseover="chgBg(m1,'m1tlm0',3);exM(m1,'none','',event)" onmouseout="chgBg(m1,'m1tlm0',0,1)" id="m1tlm0" onmousedown="f58('m1tlm0a')" style="background-color:#FF8000;" class="m1mit" ><a id="m1tlm0a" class="m1CL0" href="index-2.html" >Home</a></td>
+</tr><tr style="text-align:left"><td onmouseover="chgBg(m1,'m1tlm1',3);exM(m1,'none','',event)" onmouseout="chgBg(m1,'m1tlm1',0,1)" id="m1tlm1" onmousedown="f58('m1tlm1a')" style="background-color:#FF8000;" class="m1mit" ><a id="m1tlm1a" class="m1CL0" href="books.html" >Books</a></td>
+</tr><tr style="text-align:left"><td onmouseover="chgBg(m1,'m1tlm2',3);exM(m1,'m1mn1','m1tlm2',event)" onmouseout="chgBg(m1,'m1tlm2',0);coM(m1,'m1mn1')" id="m1tlm2" onmousedown="f58('m1tlm2a')" style="background-color:#FF8000;" class="m1mit" ><a id="m1tlm2a" class="m1CL0" href="news.html"  >News</a></td>
+</tr>
+</table>
+</h3>
+  <!-- end #sidebar1 -->
+  
+</div>&nbsp;</div>
+<div id="container">
+<div class="dmxNivoSlider slider-wrapper theme-basic" style="">
+<div id="slider1" class="nivoSlider"><img src="covers/thoreau.jpg" alt="" data-thumb="covers/thumbs/thoreau.jpg" />
+<img src="covers/lost%20pond.jpg" alt="" data-thumb="covers/thumbs/lost pond.jpg" />
+<img src="covers/spirit%20wolf.jpg" alt="" data-thumb="covers/thumbs/spirit wolf.jpg" />
+<img src="covers/BackRoadsCover.jpg" alt="" data-thumb="covers/thumbs/BackRoadsCover.jpg" />
+</div></div>
+<script type="text/javascript">
+  // <![CDATA[
+ jQuery(document).ready(
+   function()
+     {
+       jQuery("#slider1").nivoSlider(
+         {"effect": "fold", "directionNav": false}
+       );
+     }
+ );
+  // ]]>
+</script>
+<hr />
+<!-- end #mainContent -->
+</div><div><script type="text/javascript">
+<!--
+function MM_goToURL() { //v3.0
+  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
+  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
+}
+//-->
+</script>
+
+<table width="900" border="0" cellspacing="0" cellpadding="0" align="left">
+ <tr></hr><td></tr> <tr>
+    <td width=10>  </td>
+	<td width="55%">&copy; Powell Hill Press 2010</td>
+    <td width="30%"><input name="button" type="button" id="button" onclick="MM_goToURL('parent','mailto:mwholdren@gmail.com');return document.MM_returnValue" value="contact the author/publisher" /></td>
+  </tr>
+</table>
+
+</div>
+	<p>
+	  <!-- This clearing element should immediately follow the #mainContent div in order to force the #container div to contain all child floats -->
+</p>
+	<p><br class="clearfloat" />
+</p>
+<!-- end #container --></div>
+</body>
+
+<!-- Mirrored from uberwebs.net/index.asp by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 04 Jun 2016 20:36:42 GMT -->
+</html>

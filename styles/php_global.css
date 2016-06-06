@@ -1,0 +1,51 @@
+#main_container #Left_column {
+	float: left;
+	width: 80px;
+	height: 400px;
+	margin-top: 38px;
+	margin-left: 10px;
+	margin-right: auto;
+	margin-bottom: auto;
+	clear: right;
+}
+.books {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 18px;
+}
+
+#main_container {
+	width: 1000px;
+	height: auto;
+}
+
+body {
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+}
+#main_container #column2 {
+	width: 800px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	top: 0px;
+	float: right;
+	margin: auto;
+	clear: right;
+}
+
+.home_quotes {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 15px;
+	color: #000;
+}
+.news {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+}

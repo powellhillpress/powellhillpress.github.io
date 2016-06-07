@@ -68,7 +68,7 @@ m1.scrollHeight=6
 m1.attr=new Array("12px",false,false,"White","#FF8F20","#FF8F20","Georgia,Times New Roman,Times,serif","Gray","White","#FF8000")
 m1mn1=new Array
 (
-"Media Kit","MediaKit/index.html",0,"",""
+"Media Kit","http://www.powellhillpress.com/MediaKit/index.html",0,"",""
 )
 absPath=""
 if(m1.v19&&!m1.v20){
